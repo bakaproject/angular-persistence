@@ -2,7 +2,7 @@
   "name": "jsg-persistence",
   "version": "0.0.0",
   "license": "MIT",
-  "readme": "https://github.com/jserra91/angular-persistence/README.md",
+  "readme": "https://github.com/jserra91/angular-persistence#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
