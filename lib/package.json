@@ -1,20 +1,20 @@
 {
-  "name": "jsg-persistence",
-  "version": "1.0.2",
+  "name": "baka-persistence",
+  "version": "1.0.16",
   "description": "Persistence Core Library",
   "main": "./bundles/core.umd.js",
   "typings": "./core.d.ts",
-  "author": "Jordi Serra Gonzalez",
-  "readme": "https://github.com/jserra91/angular-persistence#readme",
+  "author": "Ryan Harmon",
+  "readme": "https://github.com/bakaproject/angular-persistence#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jserra91/angular-persistence"
+    "url": "https://github.com/bakaproject/angular-persistence"
   },
   "license": "ISC",
-  "homepage": "https://github.com/jserra91/angular-persistence#readme",
+  "homepage": "https://github.com/bakaproject/angular-persistence#readme",
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "@angular/common": "^6.0.0"
+    "@angular/core": "^7.2.5",
+    "@angular/common": "^7.2.5"
   },
   "dependencies": {
     "tslib": "^1.7.1"

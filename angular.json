@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "jsg-core-library": {
+    "baka-library": {
       "root": "",
       "sourceRoot": "lib",
       "projectType": "application",
@@ -25,18 +25,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "jsg-core-library:build"
+            "browserTarget": "baka-library:build"
           },
           "configurations": {
             "prod": {
-              "browserTarget": "jsg-core-library:build:prod"
+              "browserTarget": "baka-library:build:prod"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jsg-core-library:build"
+            "browserTarget": "baka-library:build"
           }
         },
         "test": {
@@ -65,14 +65,14 @@
       }
     }
   },
-  "defaultProject": "jsg-core-library",
+  "defaultProject": "baka-library",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "jsg",
+      "prefix": "baka",
       "styleext": "scss"
     },
     "@schematics/angular:directive": {
-      "prefix": "jsg"
+      "prefix": "baka"
     }
   }
 }
