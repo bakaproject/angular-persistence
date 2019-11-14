@@ -1,6 +1,6 @@
 {
   "name": "baka-persistence",
-  "version": "1.0.16",
+  "version": "2.0.0",
   "description": "Persistence Core Library",
   "main": "./bundles/core.umd.js",
   "typings": "./core.d.ts",
@@ -13,8 +13,9 @@
   "license": "ISC",
   "homepage": "https://github.com/bakaproject/angular-persistence#readme",
   "peerDependencies": {
-    "@angular/core": "^7.2.5",
-    "@angular/common": "^7.2.5"
+    "@angular/core": "^8.2.14",
+    "@angular/common": "^8.2.14",
+    "@angular/router": "^8.2.14"
   },
   "dependencies": {
     "tslib": "^1.7.1"
