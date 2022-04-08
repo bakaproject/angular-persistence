@@ -20,12 +20,12 @@
     "url": "https://github.com/bakaproject/angular-persistence"
   },
   "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
-    "@angular/router": "^8.2.14",
+    "@angular/common": ">=8.2.14",
+    "@angular/compiler": ">=8.2.14",
+    "@angular/core": ">=8.2.14",
+    "@angular/platform-browser": ">=8.2.14",
+    "@angular/platform-browser-dynamic": ">=8.2.14",
+    "@angular/router": ">=8.2.14",
     "core-js": "^2.4.1",
     "node-sass": "^4.13.0",
     "rxjs": "^6.5.3",
@@ -33,10 +33,10 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.19",
-    "@angular/cli": "^8.3.19",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/language-service": "^8.2.14",
+    "@angular-devkit/build-angular": ">=0.803.19",
+    "@angular/cli": ">=8.3.19",
+    "@angular/compiler-cli": ">=8.2.14",
+    "@angular/language-service": ">=8.2.14",
     "@types/jasmine": "^2.8.2",
     "@types/jasminewd2": "^2.0.3",
     "codelyzer": "^5.0.1",
@@ -52,6 +52,6 @@
     "ng-packagr": "^5.4.0",
     "ts-node": "^4.0.1",
     "tslint": "^5.8.0",
-    "typescript": "^3.5.3"
+    "typescript": ">=3.5.3"
   }
 }
